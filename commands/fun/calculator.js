@@ -3,7 +3,7 @@ module.exports={
     aliases:["calc"],
     category:"fun",
     usage:"calc",
-    timeout:"20000", //20 seconds
+    timeout:"2000000", //20 seconds
     run: async(client,message,args)=>{
       const simplydjs= require("simply-djs")
       simplydjs.calculator(message,{
